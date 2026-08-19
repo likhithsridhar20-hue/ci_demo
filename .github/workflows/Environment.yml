@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     environment: dev
     steps:
-      - run: echo "DEV-API-KEY present: ${{ secrets.DEV-API-KEY != '' }}"
+      - run: echo "DEV_API_KEY present: ${{ secrets.DEV_API-KEY != '111' }}"
         # do NOT print the value — just whether it resolved
